@@ -1,35 +1,4 @@
 <svg id="container" version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 919 945" height="auto" width="70%" style="margin: 5px;">
-<style>
-#container {transition: transform 1s ease;}
-#red {transition: fill 1s ease;}
-#white {transition: fill 1s ease;}
-#blue {transition: fill 1s ease;}
-#container:hover > #red{fill:green;}
-#container:hover > #white{fill:yellow;}
-#container:hover > #blue{fill:rgb(255, 128, 0);}
-#container:hover {transform: rotate(360deg);}  
-@media (hover:hover) {
-    #container:active {transition: transform 3s linear; transform: rotate(1080deg);}
-    #container:active > #red{animation: rainbow 1s 3 linear;}
-    #container:active > #white{animation: rainbow 1s 3 linear;}
-    #container:active > #blue{animation: rainbow 1s 3 linear;}
-    @keyframes rainbow{
-    0%{fill:rgb(255,0,0);}
-    8%{fill:rgb(255,127,0);}
-    16%{fill:rgb(255,255,0);}
-    25%{fill:rgb(127,255,0);}
-    33%{fill:rgb(0,255,0);}
-    41%{fill:rgb(0,255,127);}
-    50%{fill:rgb(0,255,255);}
-    58%{fill:rgb(0,127,255);}
-    66%{fill:rgb(0,0,255);}
-    75%{fill:rgb(127,0,255);}
-    83%{fill:rgb(255,0,255);}
-    91%{fill:rgb(255,0,127);}
-    100%{fill:rgb(255, 0, 149)}
-    }
-}
-</style>
 <path fill="red" id="red" d="m451 945l-129-109-9-133 139 107v135z"/>
 <path fill="blue" id="blue" d="m468 945v-135l140-107-10 133-129 109z"/>
 <path fill="red" id="red" d="m0 162l114 63 26 179-108-70zm127 71l137 74 17 190-128-83zm154 85l169 93 1 198h-4l-151-101zm-245 34l107 71 22 151-102-76zm120 80l127 86 13 150v6l-5-2-114-87zm-89 82l100 76 19 130-96-80zm231 14l153 103v162l-141-107zm-118 73l117 89 12 133-111-92z"/>
