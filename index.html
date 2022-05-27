@@ -2,6 +2,9 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" lang="en-US">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Cube Notation Converter">
+  <meta property="og:description" content="Converts cube notation into arrows that are easier to understand for beginers">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&family=Open+Sans:ital,wdth,wght@0,100,350;1,86.4,700;1,100,800&display=swap" rel="stylesheet">
@@ -10,7 +13,6 @@
   <link rel="icon" type="image/svg" href="/images/Cube.svg">
 </head>
 <body>
-
 <div class="container">
 <div class="box">
   <input class="lightdark" type="checkbox" id="lightbox" name="mode" checked onclick="mode_set()"></input>
@@ -29,7 +31,6 @@
   <label class="check s" for="exclamation">Add exclamation marks to double moves</label><br>
 </form>
 <button class="check s button" style="width: auto;padding-left: 0; padding-right: 0;" onclick="get(),window.location.href='#outlabel'">Convert</button>
-
 </div>
 <div class="box" id="outlabel">
   <h2 class="gradient-text" style="font-size: 2.5em;margin: 0px;" ><noscript><span>Sorry, you browser doesnt support javascript. Please enable javascript or update your browser.</span></noscript>Output</h2>
