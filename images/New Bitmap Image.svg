@@ -1,0 +1,38 @@
+<svg id="container" version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 919 945" height="auto" width="70%" style="margin: 5px;">
+<style>
+#container {transition: transform 1s ease;}
+#red {transition: fill 1s ease;}
+#white {transition: fill 1s ease;}
+#blue {transition: fill 1s ease;}
+#container:hover > #red{fill:green;}
+#container:hover > #white{fill:yellow;}
+#container:hover > #blue{fill:rgb(255, 128, 0);}
+#container:hover {transform: rotate(360deg);}  
+@media (hover:hover) {
+    #container:active {transition: transform 3s linear; transform: rotate(1080deg);}
+    #container:active > #red{animation: rainbow 1s 3 linear;}
+    #container:active > #white{animation: rainbow 1s 3 linear;}
+    #container:active > #blue{animation: rainbow 1s 3 linear;}
+    @keyframes rainbow{
+    0%{fill:rgb(255,0,0);}
+    8%{fill:rgb(255,127,0);}
+    16%{fill:rgb(255,255,0);}
+    25%{fill:rgb(127,255,0);}
+    33%{fill:rgb(0,255,0);}
+    41%{fill:rgb(0,255,127);}
+    50%{fill:rgb(0,255,255);}
+    58%{fill:rgb(0,127,255);}
+    66%{fill:rgb(0,0,255);}
+    75%{fill:rgb(127,0,255);}
+    83%{fill:rgb(255,0,255);}
+    91%{fill:rgb(255,0,127);}
+    100%{fill:rgb(255, 0, 149)}
+    }
+}
+</style>
+<path fill="red" id="red" d="m451 945l-129-109-9-133 139 107v135z"/>
+<path fill="blue" id="blue" d="m468 945v-135l140-107-10 133-129 109z"/>
+<path fill="red" id="red" d="m0 162l114 63 26 179-108-70zm127 71l137 74 17 190-128-83zm154 85l169 93 1 198h-4l-151-101zm-245 34l107 71 22 151-102-76zm120 80l127 86 13 150v6l-5-2-114-87zm-89 82l100 76 19 130-96-80zm231 14l153 103v162l-141-107zm-118 73l117 89 12 133-111-92z"/>
+<path fill="blue" id="blue" d="m919 162l-31 171-108 71 26-179zm-129 71l3 1-26 180-128 83 16-189zm-153 85l-13 190-145 97-10 4 1-198zm245 34l1 10-26 136-102 76 22-151zm-120 81l2 6-21 146-119 89 13-156zm90 81l-22 126-96 80 19-130zm-231 14l-11 158-141 107v-162zm118 73l-17 130-111 92 12-133z"/>
+<path fill="lightgrey" id="white" d="m457 0l98 30 24 10-121 44-117-44zm-134 44l122 46-136 51h-7l-115-51zm269 0l141 46-119 52-139-52zm-425 51l10 2 98 44 12 8-158 59-8 2-113-61zm290 0h6l137 53-141 62-139-62zm291 0l162 51 2 3-115 61-164-61 1-3zm-447 59l141 64-167 74-138-74zm316 0l166 64-138 74-167-74zm-158 71l169 75-1 3-169 89-165-89-1-3z"/>
+</svg>
